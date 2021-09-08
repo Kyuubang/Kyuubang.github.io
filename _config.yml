@@ -20,7 +20,7 @@ title: (R)-chive.
 email: javascript:window.open('mailto:'+['kyuubang','keemail.me'].join('@'))
 description: 
 baseurl: # the optional subpath of your site, e.g. "/blog"
-url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url: https://kyuubang.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 author:
   name: Ahmad Bayhaqi
   twitter:
