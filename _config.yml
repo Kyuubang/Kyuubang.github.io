@@ -22,7 +22,7 @@ description:
 baseurl: # the optional subpath of your site, e.g. "/blog"
 url: https://kyuubang.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 author:
-  name: Ahmad Bayhana parabolqi
+  name: Ahmad Bayhaqi
   twitter:
   picture: /assets/images/poison-325.gif
 twitter_username:
