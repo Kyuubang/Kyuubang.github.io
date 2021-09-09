@@ -2,7 +2,13 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
+  {% if page.image-preview %}
+    <meta property="og:image" content="{{ page.image-preview }}">
+  {% else %}
+    {% if site.preview %}
+      <meta property="og:image" content="{{ site.preview }}">
+	{% endif %}
+  {% endif %}
   {% if site.plugins contains 'jekyll-seo-tag' or site.gems contains 'jekyll-seo-tag' %}
     {% comment %}
       Add metadata for search engines and social networks if jekyll-seo-tag plugin is enabled
