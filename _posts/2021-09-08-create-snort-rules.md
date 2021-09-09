@@ -6,7 +6,7 @@ tag:
   - suricata
 category:
   - cybersec
-imagepreview: https://github.com/Kyuubang/Kyuubang.github.io/blob/master/assets/images/preview/create-snort-rules.png
+imagepreview: https://user-images.githubusercontent.com/56214296/132645308-fe9f94b0-5fc8-40a0-b2c5-e3f146395d16.png
 ---
 
 Snort and Suricata use the same language and structure of their rules. Different
