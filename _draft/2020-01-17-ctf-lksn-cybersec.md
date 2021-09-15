@@ -1,9 +1,8 @@
 ---
 title : "CTF: LKSN CyberSecurity 2020"
-toc   : true
-categories:
-    - ctf
-    - writeup
+tag:
+  -
+
 ---
 
 ## Forensics
