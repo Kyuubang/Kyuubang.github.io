@@ -7,7 +7,7 @@ tag:
 ---
 
 Few days ago i joining the CTF competition called LastCTF hosted by Helixsid community held from 25 December 2021 
-until 11 January. I think this is good for filling free time during school holidays. Mechanism the competition is 
+until 11 January 2022. I think this is good for filling free time during school holidays. Mechanism the competition is 
 jeopardy. the challenge would be spawned regularly. 
 
 i succeed 7 flag, and reach top 13 the competition. Not bad a start, keep it up!
