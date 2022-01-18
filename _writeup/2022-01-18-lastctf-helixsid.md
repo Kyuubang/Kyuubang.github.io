@@ -104,10 +104,6 @@ tar -xf flag.tar
 
 ![extracted docker image](/assets/images/writeup/docker-extracted.png)
 
-next we can see docker image structure. 
-
-image here..
-
 lets inspect manifest.json files where contained manifest the image.
 
 ![manifest.json](/assets/images/writeup/docker-manifest.png)
