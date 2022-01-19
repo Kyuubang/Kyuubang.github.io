@@ -4,13 +4,17 @@ tag:
 - docker
 - osint
 - fernet
+imagepreview: https://user-images.githubusercontent.com/56214296/150106770-c98d66bc-4653-4cf1-a5e3-ad0345d1bb55.png
 ---
+
 
 Few days ago i joining the CTF competition called LastCTF hosted by Helixsid community held from 25 December 2021 
 until 11 January 2022. I think this is good for filling free time during school holidays. Mechanism the competition is 
 jeopardy. the challenge would be spawned regularly. 
 
 i succeed 7 flag, and reach top 13 the competition. Not bad a start, keep it up!
+
+![lastctf preview](/assets/images/preview/lastctf-thumb.png)
 
 > **Notice** <br />
 > The information provided in this site is for educational purposes regarding
@@ -19,15 +23,15 @@ i succeed 7 flag, and reach top 13 the competition. Not bad a start, keep it up!
 
 #### Summary
 
-* Ba Dum Base
-* Minecraft
-* Sejarah WWW
-* Docker Rescue
-* Pernet
-* Lambe Rekta
-* Para Penggila Musik (Osint)
+* [Ba Dum Base](### Ba Dum Base)
+* [Minecraft]
+* [Sejarah WWW]
+* [Docker Rescue]
+* [Pernet]
+* [Lambe Rekta]
+* [Para Penggila Musik (Osint)]
 
-## Ba Dum Base
+### Ba Dum Base
 
 given text file contains a collection of text that looks like forming letters. and try concatenate the file
 
