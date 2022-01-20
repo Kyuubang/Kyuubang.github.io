@@ -22,6 +22,7 @@ and Daily use.
 ![actions](https://img.shields.io/badge/-ACTIONS-48cae4?logo=githubactions&logoColor=black&style=for-the-badge)
 ![kubernetes](https://img.shields.io/badge/-KUBERNETES-a8dadc?logo=kubernetes&logoColor=black&style=for-the-badge)
 ![circleci](https://img.shields.io/badge/-CIRCLECI-06d6a0?logo=circleci&logoColor=black&style=for-the-badge)
+![gitlab](https://img.shields.io/badge/-GITLAB-FCA121?logo=gitlab&logoColor=black&style=for-the-badge)
 
 #### Tools
 ![vim](https://img.shields.io/badge/-VIM-lightgrey?logo=vim&logoColor=black&style=for-the-badge)
