@@ -7,10 +7,10 @@ tag:
 imagepreview: https://user-images.githubusercontent.com/56214296/150106770-c98d66bc-4653-4cf1-a5e3-ad0345d1bb55.png
 ---
 
-few days ago I joined the CTF competition called LastCTF hosted by the Helixsid 
+A few days ago I joined the CTF competition called LastCTF hosted by the Helixsid 
 community held from 25 December 2021 until 11 January 2022. I think this is good 
-for filling free time during school holidays. Mechanism the competition in jeopardy. 
-the challenge would be spawned regularly.
+for filling free time during school holidays. Mechanism the competition in 
+jeopardy. the challenge would be spawned regularly.
 
 I reach the top 13 in the competition succeed with 7 flags. Not bad a start, keep it up!
 
