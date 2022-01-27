@@ -27,7 +27,7 @@ I reach the top 13 in the competition succeed with 7 flags. Not bad a start, kee
 * [Minecraft](#minecraft)
 * [Sejarah WWW](#sejarah-www)
 * [Docker Rescue](#docker-rescue)
-* [Pernet](#pernetg)
+* [Pernet](#pernet)
 * [Lambe Rekta](#lambe-rekta)
 * [Para Penggila Musik (Osint)](#para-penggila-musik-osint)
 

@@ -39,43 +39,7 @@ securely. see [how to create Github secrets.](https://docs.github.com/en/actions
 this setup is very simple just build an image and push the image to the registry. 
 this workflow uses official docker Github action. buildx and docker login. 
 
-{% raw %}
-```yaml
-name: "Nightly Build"
-
-on:
-  schedule:
-    - cron: '0 0 * * *'
-
-jobs:
-  nightly:
-    name: Build Docker Image Nightly
-    runs-on: ubuntu-20.04
-
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-
-      - name: Set up docker Buildx
-        uses: docker/setup-buildx-action@v1
-
-      - name: Login to Github Container Registry
-        uses: docker/login-action@v1
-        with:
-          registry: ghcr.io
-          username: ${{ github.repository_owner }}
-          password: ${{ secrets.GITHUBPAT_TOKEN }}
-
-      - name: Build and Push
-        uses: docker/build-push-action@v2
-        with:
-          context: .
-          file: ./Dockerfile
-          push: true
-          tags: |
-            ghcr.io/kyuubang/django-simple-authentication:nightly
-```
-{% endraw %}
+<script src="https://gist.github.com/Kyuubang/530320bc9e4732f497a5bae43d23a98f.js"></script>
 
 In the first step, we should checkout the repository. next, we use buildx to 
 build docker instance. This action will create and boot a builder that can be 
