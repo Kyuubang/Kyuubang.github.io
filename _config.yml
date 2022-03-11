@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 lang: en-US
 headtitle: Kyuubang
-copyright: Ahmad Bayhaqi
+copyright:
 title: (R)-chive.
 email: javascript:window.open('mailto:'+['kyuubang','keemail.me'].join('@'))
 description: 
