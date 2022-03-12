@@ -6,6 +6,7 @@
   margin-top: 4rem;
   color: tint($text-color, 40%);
   font-size: 80%;
+  padding-bottom: 1.5em;
 
   .inner {
     padding: 0 0.5rem;
@@ -34,4 +35,13 @@
 
 .copyright {
   font-family: $monospace-font-family;
+  font-size: .8em;
+  display: flex;
+  align-items: center;
+
+  span.text-license {
+    margin-left: .8em;
+  }
 }
+
+
