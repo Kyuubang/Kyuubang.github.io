@@ -2,14 +2,17 @@
 title: "actions: simple non-containerize application with GitHub actions "
 tag:
   - actions
-  - ghcr
+  - noncontainerize
 category:
   - devops
+imagepreview: https://user-images.githubusercontent.com/56214296/158066250-935a0d01-93be-4215-8472-e93762292483.png
 ---
 
 I worked on many projects with Github as DevOps in my team. I have a responsibility 
 to deliver applications from development to production. At first, I did it manually. 
 I started to feel this is always reprising every time there is a change in the application. 
+
+![thumb](https://user-images.githubusercontent.com/56214296/158066250-935a0d01-93be-4215-8472-e93762292483.png)
 
 Our production environment still uses a bare metal server. The application ran 
 on VMs created in proxmox. Production ran a simple stack. but if a change or 
