@@ -5,7 +5,7 @@ tag:
   - docker
 category:
   - devops
-imagepreview: https://user-images.githubusercontent.com/56214296/150106740-9574ff31-c90f-49fc-a273-33ec10bc5a21.png
+imagepreview: https://user-images.githubusercontent.com/56214296/160270201-0a99cffd-c105-406a-8ea0-259287dce656.png
 ---
 
 ansible wrote in python, so we need python 2.7 or python 3.8 higher to run ansible 
