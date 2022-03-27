@@ -74,7 +74,9 @@ steps in a general IT process. ansible playbook have 2 basic component, first is
 hosts and users setup, you can be spesify spesific node or just call group name 
 that has been configured in inventory file. Second is tasks list, task would be 
 executed in order, one at time, agains all machine matched by the host pattern, 
-before moving on to the next task. 
+before moving on to the next task. tasks contains 
+[collections](https://docs.ansible.com/ansible/latest/collections/index.html),
+and [modules](https://docs.ansible.com/ansible/2.8/modules/list_of_all_modules.html).
 
 before we run the playbook file, we can check playbook no have file, roles, or 
 syntax problem. run with the `--syntax-check` flag.
