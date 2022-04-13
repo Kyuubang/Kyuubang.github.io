@@ -1,4 +1,9 @@
 <ul class="contact-list">
+  <li>
+    <p>
+      Keep in touch!! :wink:
+    </p>
+  </li>
   {% if site.email %}
     <li>
       <a href="mailto:{{ site.email }}">
@@ -10,6 +15,14 @@
 
   {% if site.github_username %}
     <li>{% include icon-github.html username=site.github_username label='GitHub' %}</li>
+  {% endif %}
+  {% if site.linkedin %}
+    <li>
+      <a href="{{ site.linkedin }}">
+        <span class="icon icon--linkedin">{% include icon-linkedin.svg %}</span>
+        <span class="label">Linkedin</span>
+      </a>
+    </li>
   {% endif %}
 
   {% if site.twitter_username %}
