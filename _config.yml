@@ -24,11 +24,11 @@ url: https://kyuubang.github.io # the base hostname & protocol for your site e.g
 author:
   name: Ahmad Bayhaqi
   twitter:
-  picture: /assets/images/pokemon.png
+  picture:
 twitter_username:
 github_username: Kyuubang
 linkedin: https://linkedin.com/in/ahmadbayhaqi
-logo: /assets/images/Xtreme.gif #path of site logo, e.g. "/assets/images/logo.png"
+logo: #path of site logo, e.g. "/assets/images/logo.png"
 favicon: /assets/images/poison-mini.gif
 search: # true, false (default)
 search_full_content: false # true, false (default)
