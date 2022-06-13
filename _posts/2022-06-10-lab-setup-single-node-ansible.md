@@ -1,11 +1,10 @@
 ---
-title: "LS: Lab Setup Ansible single node with virtualenv"
+title: "LS: Lab Setup Ansible single node with virtualenv on Ubuntu 18.04"
 tag:
   - automation
   - ansible
 category:
   - lab-setup
-imagepreview: https://user-images.githubusercontent.com/56214296/150106740-9574ff31-c90f-49fc-a273-33ec10bc5a21.png
 ---
 
 this guide will share how to me create a lab setup to learn ansible with single
