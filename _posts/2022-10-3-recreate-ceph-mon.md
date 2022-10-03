@@ -1,5 +1,5 @@
 ---
-title : "How to recreate MONs out of quorum on Ceph"
+title : "Ceph: How to recreate MONs out of quorum on Ceph"
 show_date: true
 toc: true
 tags:
