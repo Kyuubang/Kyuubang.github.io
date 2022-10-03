@@ -8,8 +8,6 @@ categories:
     - cloud native
 ---
 
-#### Introduction
-
 MONs are recommended to ensure fault tolerance and maintainability. If a cluster's MONs cannot form a quorum, which happens if not enough of the provisioned MONs are up, then new clients won't be able to connect to the system. 
 
 quorum is fundamental to all consensus algorithms that are designed to
