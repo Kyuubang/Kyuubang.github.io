@@ -5,7 +5,7 @@ toc: true
 tags:
     - ceph
 categories:
-    - cloud native
+    - cloud-native
 ---
 
 MONs are recommended to ensure fault tolerance and maintainability. If a cluster's MONs cannot form a quorum, which happens if not enough of the provisioned MONs are up, then new clients won't be able to connect to the system. 
