@@ -2,11 +2,12 @@
 title : "Ceph: How to recreate MONs out of quorum on Ceph"
 show_date: true
 toc: true
+imagepreview: https://user-images.githubusercontent.com/56214296/194529209-18af5fd9-73a9-4ed4-9a1d-77d3604ef7b0.png
 tags:
     - ceph
 categories:
     - cloud-native
-imagepreview: https://user-images.githubusercontent.com/56214296/194529209-18af5fd9-73a9-4ed4-9a1d-77d3604ef7b0.png
+
 ---
 
 MONs are recommended to ensure fault tolerance and maintainability. If a cluster's MONs cannot form a quorum, which happens if not enough of the provisioned MONs are up, then new clients won't be able to connect to the system. 
