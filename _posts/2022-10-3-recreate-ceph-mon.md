@@ -14,6 +14,8 @@ access information in a fault-tolerant distributed system. Minimum number of vot
 
 Sometime you had Ceph MONs are down, and return `out of quorum` status. This tutorial you will learn How to recreate MON daemon on Ceph.
 
+![preview](https://user-images.githubusercontent.com/56214296/194529209-18af5fd9-73a9-4ed4-9a1d-77d3604ef7b0.png)
+
 ### Step 1 -- Remove MONs
 
 first step you need to see the status of cluster. based on the information below, you have 1/3 mons down, and return `out of quorum` status and everything else is safe.
