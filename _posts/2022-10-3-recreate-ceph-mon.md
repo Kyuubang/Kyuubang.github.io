@@ -1,18 +1,18 @@
 ---
 title : "Ceph: How to recreate MONs out of quorum on Ceph"
+imagepreview: https://user-images.githubusercontent.com/56214296/194529209-18af5fd9-73a9-4ed4-9a1d-77d3604ef7b0.png
 tags:
     - ceph
 categories:
     - cloud-native
-imagepreview: https://user-images.githubusercontent.com/56214296/194529209-18af5fd9-73a9-4ed4-9a1d-77d3604ef7b0.png
 ---
 
-MONs are recommended to ensure fault tolerance and maintainability. If a cluster's MONs cannot form a quorum, which happens if not enough of the provisioned MONs are up, then new clients won't be able to connect to the system. 
+MONs are recommended to ensure fault tolerance and maintainability. If a cluster's MONs cannot form a quorum, which happens if not enough of the provisioned MONs are up, then new clients won't be able to connect to the system.
 
 quorum is fundamental to all consensus algorithms that are designed to
 access information in a fault-tolerant distributed system. Minimum number of votes achieve consensus among a set of nodes called quorum.
 
-Sometime you had Ceph MONs are down, and return `out of quorum` status. This tutorial you will learn How to recreate MON daemon on Ceph. 
+Sometime you had Ceph MONs are down, and return `out of quorum` status. This tutorial you will learn How to recreate MON daemon on Ceph.
 
 ### Step 1 -- Remove MONs
 
@@ -79,7 +79,7 @@ $ sudo cephadm ls | grep mon
         "service_name": "mon",
 ```
 
-if you see like this output that means daemon was stopped but daemon still registered on cephadm host. to remove it you can use rm-daemon subcommand on cephadm. 
+if you see like this output that means daemon was stopped but daemon still registered on cephadm host. to remove it you can use rm-daemon subcommand on cephadm.
 
 ```bash
 sudo cephadm rm-daemon --name mon.pod-bayhaqisptr04-ceph3 --fsid 35de853b-3a4e-4568-b698-f223c8382bb8 --force
@@ -91,7 +91,7 @@ after success remove, check again that are still available or not.
 sudo cephadm ls | grep mon
 ```
 
-to get your fsid use this command to grep you cluster id 
+to get your fsid use this command to grep you cluster id
 
 ```bash
 sudo ceph status | awk '/id:/ {print $2}'
@@ -101,7 +101,7 @@ it might take a few minutes to update entire database of cephadm before you can 
 
 ### Step 3 -- Redeploy Ceph MON
 
-after daemon are removed you need to redeploy daemon. to reliaze it you can set mon to unmanaged mode 
+after daemon are removed you need to redeploy daemon. to reliaze it you can set mon to unmanaged mode
 
 ```bash
 sudo ceph orch apply mon --unmanaged
@@ -115,9 +115,9 @@ $ sudo ceph orch daemon add mon pod-bayhaqisptr04-ceph3:10.9.9.30
 Deployed mon.pod-bayhaqisptr04-ceph3 on host 'pod-bayhaqisptr04-ceph3'
 ```
 
-verify its work properly 
+verify its work properly
 
-```bash 
+```bash
 $ sudo ceph status
 
 student@pod-bayhaqisptr04-ceph1:~$ sudo ceph status
@@ -139,8 +139,7 @@ student@pod-bayhaqisptr04-ceph1:~$ sudo ceph status
 
 Congrats! you have recreate and bringing up you Ceph MON.
 
-
-### Conclusion 
+### Conclusion
 
 The ceph cluster uses several daemons to build its system. and registered on cluster and host itself. ceph mon is responsible for ensuring all daemons are in good working order.
 
