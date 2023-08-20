@@ -8,7 +8,7 @@ draft: false
 tags:
   - azure
   - kubernetes
-ogImage: ""
+ogImage: "/assets/images/preview/agic-cert-manager.jpg"
 description: ""
 ---
 
