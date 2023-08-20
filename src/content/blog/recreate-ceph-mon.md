@@ -7,8 +7,7 @@ featured: false
 draft: false
 tags:
   - ceph
-  - release
-ogImage: ""
+ogImage: "/assets/images/preview/ceph-mon-thumb.png"
 description: trouble shooting your ceph mon and recreate it
 ---
 

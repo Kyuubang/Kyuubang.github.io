@@ -7,7 +7,7 @@ featured: false
 draft: false
 tags:
   - snort
-  - ids
+  - IDS
 ogImage: ""
 description: ""
 ---
