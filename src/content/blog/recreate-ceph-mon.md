@@ -8,7 +8,7 @@ draft: false
 tags:
   - ceph
 ogImage: "/assets/images/preview/ceph-mon-thumb.png"
-description: trouble shooting your ceph mon and recreate it
+description: "Tutorial focuses on the critical task of re-establishing Ceph MON daemons in a cluster to maintain fault tolerance and system reliability."
 ---
 
 ## Table of contents

@@ -8,7 +8,7 @@ draft: false
 tags:
   - ansible
 ogImage: ""
-description: ""
+description: "In this guide, will walk you through setting up Ansible on your controller node using Python's virtual environment and pip package manager. This ensures a clean and isolated installation."
 ---
 
 ## Table of contents

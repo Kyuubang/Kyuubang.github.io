@@ -9,7 +9,7 @@ tags:
   - azure
   - kubernetes
 ogImage: "/assets/images/preview/agic-cert-manager.jpg"
-description: ""
+description: "This guide embarks on configuring Secure HTTP with Cert-Manager and the Azure Application Gateway Ingress Controller (AGIC) for an Azure Kubernetes Service (AKS) cluster. "
 ---
 
 ## Table of contents

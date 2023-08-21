@@ -9,7 +9,7 @@ tags:
   - snort
   - IDS
 ogImage: ""
-description: ""
+description: "In this guide, we embark on a journey into the intricacies of intrusion detection systems using Snort and Suricata. These two tools share a common rule structure language while offering distinct features and options."
 ---
 
 ## Table of contents

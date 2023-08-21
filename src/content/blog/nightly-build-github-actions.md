@@ -9,8 +9,8 @@ tags:
   - actions
   - github
   - docker
-ogImage: ""
-description: ""
+ogImage: "/assets/images/preview/github-thumb.png"
+description: "Explore the capabilities of GitHub Actions and delve into setting up scheduled workflows, specifically focusing on the implementation of a nightly build."
 ---
 
 ## Table of Contents

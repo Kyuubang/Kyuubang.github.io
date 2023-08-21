@@ -1,7 +1,7 @@
 ---
 author: Ahmad Bayhaqi
 pubDatetime: 2022-03-11
-title: "simple non-containerize application with GitHub actions"
+title: "Simple non-containerize application with GitHub actions"
 postSlug: non-containerize-cicd
 featured: false
 draft: false
@@ -10,7 +10,7 @@ tags:
   - github
   - bash
 ogImage: ""
-description: ""
+description: "Explores the journey of integrating GitHub Actions into DevOps practices, focusing on automating application deployment from development to production. "
 ---
 
 ## Table of contents

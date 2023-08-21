@@ -8,7 +8,7 @@ draft: false
 tags:
   - ansible
 ogImage: ""
-description: ""
+description: "Guide outlines the process of establishing a lab environment for learning Ansible on a single machine."
 ---
 
 this guide will share how to me create a lab setup to learn ansible with single
